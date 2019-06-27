@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WKSwiftBaseExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WKSwiftBaseExtension.'
+  s.summary          = '自己封装的基本库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 自己封装的基本库
                        DESC
 
-  s.homepage         = 'https://github.com/sevemal@126.com/WKSwiftBaseExtension'
+  s.homepage         = 'https://github.com/sevemal/WKSwiftBaseExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sevemal@126.com' => 'sevemal@126.com' }
-  s.source           = { :git => 'https://github.com/sevemal@126.com/WKSwiftBaseExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sevemal/WKSwiftBaseExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'WKSwiftBaseExtension/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WKSwiftBaseExtension' => ['WKSwiftBaseExtension/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'WKSwiftBaseExtension' => ['WKSwiftBaseExtension/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit'
+   s.dependency 'SnapKit'
 end
