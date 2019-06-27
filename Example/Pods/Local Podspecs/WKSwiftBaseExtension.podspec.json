@@ -1,0 +1,22 @@
+{
+  "name": "WKSwiftBaseExtension",
+  "version": "0.1.0",
+  "summary": "A short description of WKSwiftBaseExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sevemal@126.com/WKSwiftBaseExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sevemal@126.com": "sevemal@126.com"
+  },
+  "source": {
+    "git": "https://github.com/sevemal@126.com/WKSwiftBaseExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKSwiftBaseExtension/Classes/**/*"
+}

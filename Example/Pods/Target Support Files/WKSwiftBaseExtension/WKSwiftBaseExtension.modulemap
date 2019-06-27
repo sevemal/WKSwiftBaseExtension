@@ -1,0 +1,6 @@
+framework module WKSwiftBaseExtension {
+  umbrella header "WKSwiftBaseExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
