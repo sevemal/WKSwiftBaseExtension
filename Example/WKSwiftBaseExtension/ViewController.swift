@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import WKSwiftBaseExtension
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.wkvc.comfigCustomNavigationUIStyle { (maker) in
+            maker.navTitle("test")
+            maker.showBlackBackButton()
+        }
+        
+                // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

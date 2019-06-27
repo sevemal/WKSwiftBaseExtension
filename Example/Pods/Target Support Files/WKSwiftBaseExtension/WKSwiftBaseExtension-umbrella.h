@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
 FOUNDATION_EXPORT double WKSwiftBaseExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char WKSwiftBaseExtensionVersionString[];

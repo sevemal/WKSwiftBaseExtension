@@ -1,15 +1,22 @@
 PODS:
-  - WKSwiftBaseExtension (0.1.0)
+  - SnapKit (4.2.0)
+  - WKSwiftBaseExtension (0.1.0):
+    - SnapKit
 
 DEPENDENCIES:
   - WKSwiftBaseExtension (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   WKSwiftBaseExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WKSwiftBaseExtension: 791d61c850032ab7a738673c9362b4855465568e
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  WKSwiftBaseExtension: 35ef6df75cbd309132f5bcab68e9203de71ad10f
 
 PODFILE CHECKSUM: 37e54cfb3d389d0748e53e00e9d77ea5ac6c1908
 

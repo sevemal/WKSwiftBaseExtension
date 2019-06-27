@@ -1,9 +1,9 @@
 {
   "name": "WKSwiftBaseExtension",
   "version": "0.1.0",
-  "summary": "A short description of WKSwiftBaseExtension.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sevemal@126.com/WKSwiftBaseExtension",
+  "summary": "自己封装的基本库",
+  "description": "TODO: 自己封装的基本库",
+  "homepage": "https://github.com/sevemal/WKSwiftBaseExtension",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "sevemal@126.com": "sevemal@126.com"
   },
   "source": {
-    "git": "https://github.com/sevemal@126.com/WKSwiftBaseExtension.git",
+    "git": "https://github.com/sevemal/WKSwiftBaseExtension.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WKSwiftBaseExtension/Classes/**/*"
+  "source_files": "WKSwiftBaseExtension/Classes/**/*",
+  "resource_bundles": {
+    "WKSwiftBaseExtension": [
+      "WKSwiftBaseExtension/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
 }
