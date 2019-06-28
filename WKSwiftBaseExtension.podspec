@@ -30,7 +30,7 @@ TODO: 自己封装的基本库
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'WKSwiftBaseExtension/Classes/**/*'
-  
+  s.swift_version = '4.2'
    s.resource_bundles = {
      'WKSwiftBaseExtension' => ['WKSwiftBaseExtension/Assets/*.png']
    }

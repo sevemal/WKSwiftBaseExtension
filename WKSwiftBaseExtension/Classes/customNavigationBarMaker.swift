@@ -21,7 +21,7 @@ public enum navType:Int {
 public class customNavigationBarMaker:NSObject{
     
     
-    private var vc:UIViewController
+    var vc:UIViewController
     
     internal init(_ vc:UIViewController) {
         self.vc = vc
