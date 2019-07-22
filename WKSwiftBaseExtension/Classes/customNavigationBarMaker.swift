@@ -37,6 +37,7 @@ public class customNavigationBarMaker:NSObject{
         
         let customNavBarView = customNavigationView()
         customNavBarView.tag = navigationViewTag
+        customNavBarView.backgroundUIType = .navTypeWhite
         weak var weakVC = vc
         customNavBarView.popVC = {
             weakVC?.popVC()
@@ -157,7 +158,7 @@ public extension customNavigationBarMaker{
             self.customBarView!.backgroundUIType = type
             if type == .navTypeDefualt{
                 self.customBarView!.isHidden = true
-                self.customBarView?.snp.remakeConstraints { (make) in
+                self.customContenView?.snp.remakeConstraints { (make) in
                     make.top.equalToSuperview()
                     make.left.right.equalToSuperview()
                     make.bottom.equalToSuperview()
