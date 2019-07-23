@@ -43,11 +43,11 @@ public extension UIView{
     ///
     /// - Parameter viewType: 子view类型
     /// - Returns: 子view实例
-    public func checkIsHaveView<T>(viewType:T) -> T? {
+    public func checkIsHaveView<T>(viewType:String) -> T? {
         var result:T? = nil
         
         for view in self.subviews{
-            if view as? T != nil {
+            if NSStringFromClass(type(of: view.self)) == viewType {
                 result = view as? T
                 break
             }
@@ -55,9 +55,9 @@ public extension UIView{
         return result
     }
     
-  public func checkIsHaveView<T>(viewType:T) -> Bool {
+  public func checkIsHaveView(viewType:String) -> Bool {
     
-    if let _:T = self.checkIsHaveView(viewType: viewType){
+    if let _:UIView = self.checkIsHaveView(viewType: viewType){
             return true
         }
         return false
